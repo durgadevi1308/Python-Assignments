@@ -109,11 +109,11 @@ print("AN INDIVIDUAL RAILWAY RESERVATION SYSTEM\n")
 date=datetime.date(2024,3,17)
 s=IndividualReservation("Karaikal Express","Katpadi","Mayiladuthurai","Pranav",24,"Sleeper",date)
 print(s.travel_details())
-print(s.train_details("KVM-431","Chennai","Mayiladuthurai",station1="Chengalpet",station2="Arrakonam",station3="Katpadi",station4="Villupuram"))
+print(s.train_details("KVM-431","Chennai","Mayiladuthurai",station1="Chengalpet",station2="Arrakonam",station3="Katpadi",station4="Villupuram",station5="Chidambaram"))
 print(s.availability())
 print(s.passenger_details("Male","9894755943"))
 print(s.ticket_details(2500,2000,1700))
-print(s.additional_bill(12))
+print(s.additional_bill(15))
 
    
         
